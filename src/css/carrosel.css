@@ -74,3 +74,8 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+.descricao__estrelas {
+    color: var(--laranja);
+    margin-bottom: 0.8em;
+}
