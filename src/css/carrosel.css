@@ -80,6 +80,10 @@
     margin-bottom: 0.8em;
 }
 
+.botoes__ancora:hover {
+    background-color: var(--laranja-claro);
+    transition: 0.5s;
+}
 @media screen and (min-width: 1024px) {
     .carrosel__titulo {
         font-size: 24px;
