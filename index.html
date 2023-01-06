@@ -321,6 +321,16 @@
                     type: 'bullets',
                 },
             });
+
+            // o querySelectorAll seleciona todas tags img
+            let img = document.querySelectorAll("img");
+            //para cada elemento de img se eles possuem um atributo alt eles vão receber um atributo 
+            //title de mesmo valor de alt 
+            img.forEach(element => {
+                if(element.hasAttribute("alt")){
+                    element.setAttribute("title", element.getAttribute("alt"));
+                } 
+            });
         </script>
     </body>
 </html>
